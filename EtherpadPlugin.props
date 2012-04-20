@@ -1,0 +1,32 @@
+# Lines starting with '#' are ignored.
+# name=value
+# another.name=another value
+# long.property=Long property value, split over \
+#     several lines
+# escape.property=Newlines and tabs can be inserted \
+#     using the \t and \n escapes
+# backslash.property=A backslash can be inserted by writing \\.
+
+# general plugin information
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.name=EtherpadPlugin
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.author=Constantin Jucovschi
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.description=Support for Etherpad editing in jEdit
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.longdescription=Allows jEdit buffer to be connected to a Etherpad-Lite Pad.
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.docs=doc.html
+
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.activate=startup
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.jars=
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.version=1
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.depend.0=jedit 04.02.99.00
+
+# menu items for the actions
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.menu.label=Etherpad
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.menu=etherpad.connect
+etherpad.connect.label=Connect to Pad
+
+# plugin option pane
+plugin.info.kwarc.etherpad.jedit.EtherpadPlugin.option-pane=EtherpadPlugin
+
+# configurations
+options.EtherpadPlugin.label=Etherpad
+options.EtherpadPlugin.code=new info.kwarc.etherpad.jedit.EtherpadOptionPane();

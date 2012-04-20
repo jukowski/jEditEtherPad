@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="jEditEtherPad/lib/EtherpadPlugin.jar"/>
+    <options buildIfNeeded="true" compress="true" desriptionLocation="/jEditEtherPad/jarexport.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="false" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="/jEditEtherPad/jarexport.manifest" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=jEditEtherPad/src"/>
+        <file path="/jEditEtherPad/EtherpadPlugin.props"/>
+        <file path="/jEditEtherPad/actions.xml"/>
+        <file path="/jEditEtherPad/services.xml"/>
+        <file path="/jEditEtherPad/lib/jeasysync2.jar"/>
+    </selectedElements>
+</jardesc>

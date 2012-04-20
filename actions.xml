@@ -1,0 +1,8 @@
+<ACTIONS>
+-	<ACTION NAME="etherpad.connect">
+		<CODE>
+			jEdit.getPlugin("info.kwarc.etherpad.jedit.EtherpadPlugin", true).connect(view);
+		</CODE>
+	</ACTION> 
+</ACTIONS>
+
